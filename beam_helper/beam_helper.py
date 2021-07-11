@@ -37,4 +37,7 @@ class Pipeline_Helper(object):
                                    file_name_suffix=file_name_suffix,
                                    num_shards=num_shards,
                                    compression_type=compression_type)
+
+    def split_by_delimiter(self, delimiter):
+        return beam.Map(lambda x: x.split(delimiter))
     
