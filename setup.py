@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup_config = {
     "name": "beam_helper", 
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "chrisp",
     "author_email": "christopherpearce10@gmail.com",
     "description": "class providing help for apache beam pipeline rapid development",
